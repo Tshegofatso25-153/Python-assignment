@@ -18,4 +18,4 @@ If the studects existed, the system will tell the user and will not add the s
 student,but if the student does not exist, the system will ask the user for the student's grades. The validation rules will also apply to the students grades.
 For updating the student's grades. A simple input prompt was used. The prompt asks the user to enter the name of the student whose grades are to be updated.
 it will then ask the user to enter the subject whose grade is to be updated and it will then ask for the new grade.
-For removing a student,
+For removing a student, the user enters the name of the student they want to remove. The del function use the netered name and removes the student from the list
