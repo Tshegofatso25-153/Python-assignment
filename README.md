@@ -8,3 +8,12 @@ Using another loop, all of the student's grades were totaled and the class avera
 
 In Section B, the system was modified such that it can hold grades for different subjects instead of 1 subject. 
 First a list with different subjects for which the grades of these subjects will be recorded was created.
+
+#SECTION C
+In Section c,a dictionary is created tp replac the tulple list. A dictionary where the student name is the key and the grades are the values .
+A loop was used to add a new student to the tuple. The loop promts the user to enter the student name and it will check if the student name already exists in the tuple created.
+If the studejts existed, the system will tell the user and will not add the s
+student,but if the student does not exist, the system will ask the user for the student's grades. The validation rules will also apply to the students grades.
+For updating the student's grades. A simple input prompt was used. The prompt asks the user to enter the name of the student whose grades are to be updated.
+it will then ask the user to enter the subject whose grade is to be updated and it will then ask for the new grade.
+For removing a student,
