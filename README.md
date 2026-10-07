@@ -11,8 +11,10 @@ First a list with different subjects for which the grades of these subjects will
 
 #SECTION C
 In Section c,a dictionary is created tp replac the tulple list. A dictionary where the student name is the key and the grades are the values .
+This dictionary was the improvement and extended such that the subjects is a key and holds multiple grades for a subject.
+An input prompt was used to ask the user how many grades are expected per subject. 
 A loop was used to add a new student to the tuple. The loop promts the user to enter the student name and it will check if the student name already exists in the tuple created.
-If the studejts existed, the system will tell the user and will not add the s
+If the studects existed, the system will tell the user and will not add the s
 student,but if the student does not exist, the system will ask the user for the student's grades. The validation rules will also apply to the students grades.
 For updating the student's grades. A simple input prompt was used. The prompt asks the user to enter the name of the student whose grades are to be updated.
 it will then ask the user to enter the subject whose grade is to be updated and it will then ask for the new grade.
