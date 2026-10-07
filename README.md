@@ -8,6 +8,10 @@ Using another loop, all of the student's grades were totaled and the class avera
 
 In Section B, the system was modified such that it can hold grades for different subjects instead of 1 subject. 
 First a list with different subjects for which the grades of these subjects will be recorded was created.
+A tuple that holds the grade and name is created. A grade.append() is used to add the grades to the tulple. 
+A FOR loop is created to calculate the average .It loops through all the grades and divides them by the number of subjects. 
+A FOR loop is created to print the grades and name of students. it loops through the names and grades in the tulple. This loop also prints the highest and the lowest marks for particular subjects.
+A summary table showing names, subjects grades and class average is created.A header row includes name, different subjects and average. 
 
 #SECTION C
 In Section c,a dictionary is created tp replac the tulple list. A dictionary where the student name is the key and the grades are the values .
