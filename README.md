@@ -2,6 +2,7 @@
 
 This code was created to create a student management system that manages the students grades across different subjects.
 
+SetUp Instructions-
 In Section A, an empty list that will contain the details of the students was created. 
 total_students holds the number of people in a particular class.
 grades[] holds the grades of the student for a particular subject.
@@ -27,7 +28,18 @@ A loop was used to add a new student to the tuple. The loop promts the user to e
 If the studects existed, the system will tell the user and will not add the student,but if the student does not exist, the system will ask the user for the student's grades. The validation rules will also apply to the students grades.
 For updating the student's grades. A simple input prompt was used.
 subject=() holds the name of the subject gor which the grage is to be changed.The prompt asks the user to enter the name of the student whose grades are to be updated.
-new grade=() holds the chafed grade.the system will ask the user for the new grade.
+new grade=() holds the updated grade.the system will ask the user for the new grade.
 remove_choice holds the answer to whether the user wants to remove a student or not. if the answer is yes, the user enters the name of the student they want to remove if it is not, the process is skipped. The del function use the student_name and removes the student from the list
 grades_view holds the subject for which the user has interest in viewing the grades.the user inputs the subject, if the input subject exists in the dictionary, the name and grades for each student for that particular subject is printed.
 search_name holds the name of the student being searched for. results stores the student's dictionary. all_grades stores grades for the student. the user enters the name, the name is checked on the dictionary and the grades are stored, the grades and subject are then print using the key, value item.
+
+SECTION D
+Functions that add students, calculate average, display students and display students summary in a form of a table were created. These functions have validations within them to ensure that accurate data is entered. These functions get information from the dictionary created above as global variables. after each function the function is called.
+
+Featured List- validates grades entered by the user, it should be between 0 and 100
+             - updates a specific for a subject. if the subject has more than 1 grade, it asks which grade is to be uodated.
+             -asks the user if they want to display students and search for a particular student.
+             -shows the summary of students by displaying their average per subject and their average grades.
+Assumptions and Limitations- the program only works with grades that are positive and are from a range 0 to 100 only, else the program will stop running. 
+                            - some results after the program run are not returned to                                the program so it cannot be used
+example Input/Output-<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/44ef045b-1ba9-428b-bfd3-ef884285b048" />
