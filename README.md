@@ -42,4 +42,5 @@ Featured List- validates grades entered by the user, it should be between 0 and 
              -shows the summary of students by displaying their average per subject and their average grades.
 Assumptions and Limitations- the program only works with grades that are positive and are from a range 0 to 100 only, else the program will stop running. 
                             - some results after the program run are not returned to                                the program so it cannot be used
+                            - when printing the highest and lowest grade, the code does not specify which grade is the highest and which is the lowest,it just prints the grades. 
 example Input/Output-<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/44ef045b-1ba9-428b-bfd3-ef884285b048" />
