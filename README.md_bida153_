@@ -14,6 +14,7 @@ Files                     | what it does
 Assignment Section A      |enters students and their grades, calculates average
 Section B Assignment      |stores the grades as a tuple
 SECTION C                 |stores the students in a dictionary
+ASSIGNMENT SECTION D      |breaks the program into functions
 
 ## Features list
 -validates grades entered by the user, values accepted are between 0 and 100
@@ -33,6 +34,12 @@ SECTION C                 |stores the students in a dictionary
 - student names are not case sensitive
 - when updating a student, the program does not check if the input name exists in the student dictionary.
 -  The program supports a single user at a time.
+
+## Known  Issues
+-Names with space infont and back were treated as a different name ; .strip() is used to remove the space
+-the input names were not case sensitive ; .lower() is used to convert the letters to lowercase letters
+-Typing a grade outside the range 0 and 100 ; try/except is used to show th user the error
+-the program does not check if the student exist whn updating ; used if results to update only when the sudent exists.
 
 ## References
 -W3SCHOOLS website: https://www.w3schools.com/python/default.asp 
