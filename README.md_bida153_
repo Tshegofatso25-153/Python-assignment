@@ -11,9 +11,9 @@ sorting, and printing student records. The system asks the user to input the stu
 
 ###Files###
 Files                     | what it does
-Assignment Section A      |
-Section B Assignment      |
-SECTION C                 |
+Assignment Section A      |enters students and their grades, calculates average
+Section B Assignment      |stores the grades as a tuple
+SECTION C                 |stores the students in a dictionary
 
 ##Features list##
 -validates grades entered by the user, values accepted are betwwen 0 and 100
