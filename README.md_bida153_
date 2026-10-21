@@ -1,38 +1,38 @@
-#Student Management and Grading System
+# Student Management and Grading System
 
-##Project Overview
-Student Management and Grading System is a system that allows the user to managing students grades and perform operations such as adding, removing, searching, 
+## Project Overview
+Student Management and Grading System is a system that allows the user to manage students grades and perform operations such as adding, removing, searching, 
 sorting, and printing student records. The system asks the user to input the student names and grades so that it will perform operations on the grades then displays students records.
 
-##Setup  Instructions
+## Setup  Instructions
 -Python 3.10 or newer
 -No external libraries are needed
 -Run the program: python main.py
 
-###Files###
+## Files
 Files                     | what it does
 Assignment Section A      |enters students and their grades, calculates average
 Section B Assignment      |stores the grades as a tuple
 SECTION C                 |stores the students in a dictionary
 
-##Features list##
--validates grades entered by the user, values accepted are betwwen 0 and 100
+## Features list
+-validates grades entered by the user, values accepted are between 0 and 100
 - Asks the user whether they want to display all students.
-- Allows the user to search for a particulst student by using their name.
+- Allows the user to search for a particular student by using their name.
 - Allows the user to remove a student
 - Allows a new student to be added
 - Allows the user to update a grade for a specified subject.
 
-Example  Input/Output
+## Example  Input/Output
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/bd370e63-c382-4019-b0fc-1e1667103128" />
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/b4eef26d-da3e-424d-a695-222527c0e09c" />
 
-##Assumptions and Limitations##
+## Assumptions and Limitations
 -the program only works with grades that are positive and are from a range 0 to 100 only, else the program will stop running. 
 - some results after the program run are not returned to the program so it cannot be used
-- student names are not case sensetive
-- when updating a student, the program does not check if the input name exists in the stident dictionary.
+- student names are not case sensitive
+- when updating a student, the program does not check if the input name exists in the student dictionary.
 -  The program supports a single user at a time.
 
-##References##
+## References
 -W3SCHOOLS website: https://www.w3schools.com/python/default.asp 
