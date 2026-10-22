@@ -24,6 +24,22 @@ ASSIGNMENT SECTION D      |breaks the program into functions
 - Allows a new student to be added
 - Allows the user to update a grade for a specified subject.
 
+##Class  Architecture 
+The Student class represents a single student. each student is stored in a dictionary where the subject is a key and the grade is a value. This dictionary allows the student to have more than 1 grade for a subject.
+methods
+- valigatee grades: checks if the grades falls within the 0 and 100 grade. if it does not it raises an InvalidGradeError.
+-add grades:validates the given grade and store it under the subject name in the list. if the subject does not exist, it creates alist fr=or that subject.
+-calculate average: uses the values the values from the ductionary to calculate the average. If the the student has no grades, it will raise an Error for division bu 0.
+-display students: prints the students with theu grade for subjects and their overall average.
+
+The Gradebook class manages the whole class of students. It allows   add,  remove,  and  search  for  students and sorting the students.
+methods
+-add_student(student): adds a student to the dictionary. If the student already exists, it will reject the student
+-remove_student(name) : removes the student from the dictionary. If the student does not exist in the dictionary, it will print an error message.
+-search_student(name): searches a student in the dictionary by using their name.  If the student does not exist in the dictionary, it will print an error message.
+-sort_by_average() : sorts students by using their average, from highest to the lowest.
+-sort_students_by_name() : sorts students by alphabetical order.
+
 ## Example  Input/Output
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/bd370e63-c382-4019-b0fc-1e1667103128" />
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/b4eef26d-da3e-424d-a695-222527c0e09c" />
