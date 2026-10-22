@@ -51,6 +51,10 @@ methods
 - when updating a student, the program does not check if the input name exists in the student dictionary.
 -  The program supports a single user at a time.
 
+##Testing  Summary
+
+Edge case hangling- 
+
 ## Known  Issues
 -Names with space infont and back were treated as a different name ; .strip() is used to remove the space
 -the input names were not case sensitive ; .lower() is used to convert the letters to lowercase letters
