@@ -53,7 +53,26 @@ methods
 
 ##Testing  Summary
 
-Edge case hangling- 
+ TEST CASE	            |EXPECTED RESULTS	                       |ACTUAL RESULTS
+Add a grade 80 to maths	|The Maths grade is updated              |The maths grade is successfully updated,
+                        |to 80 and stored successfully           | and it is shown when displaying records. PASS
+Validate grade 80	      |Accept grade 80	                       |Grade 80 Was accepted. PASS
+Validate grade -5	      |Reject grade -5	                       |Grade -5 was rejected and an error message was shown. PASS
+Calculate average       |Average should be 85                    |Average was calculated as 85. PASS
+90,85,80))              | 	
+Display student name	  |Student  name displayed.	               |Student name was displayed. PASS
+Add student to gradebook |Student shown in the gradebook records.	|Student was added in the records. PASS
+Remove a student from    |Student removed in the gradebook        |Student was removed in the records. PASS
+the gradebook            |records.
+ Search for student      |Student displayed	                     |Student records successfully displayed. PASS
+Sort students by average |Students arranged from order of highest| Students arranged correctly. PASS
+                         | to lowest by their  average.	         |
+add grades, calculate    |Students arranged from order of highest| Students arranged correctly. PASS
+average, and sort        | to lowest by their  average           |
+	
+Edge Case Handling
+TEST CASE	                   |EXPECTED RESULTS	          |ACTUAL RESULTS
+Enter a negative grade (-5)	 |System rejects the grade	  |Grade rejected and error message shown. PASS
 
 ## Known  Issues
 -Names with space infont and back were treated as a different name ; .strip() is used to remove the space
