@@ -71,8 +71,11 @@ add grades, calculate    |Students arranged from order of highest| Students arra
 average, and sort        | to lowest by their  average           |
 	
 Edge Case Handling
-TEST CASE	                   |EXPECTED RESULTS	          |ACTUAL RESULTS
-Enter a negative grade (-5)	 |System rejects the grade	  |Grade rejected and error message shown. PASS
+TEST CASE	                   |EXPECTED RESULTS	               |ACTUAL RESULTS
+Enter a negative grade (-5)	   |System rejects the grade	       |Grade rejected and error message shown. PASS
+Enter a negative grade (0)	   |System accepts the grade	       |Grade accepted successfully. PASS
+Enter a negative grade (100)   |System accepts the grade	       |Grade accepted successfully. PASS
+leaving the name empty         |the system rejects                 |Name is rejected and error message shown. PASS
 
 ## Known  Issues
 -Names with space infont and back were treated as a different name ; .strip() is used to remove the space
